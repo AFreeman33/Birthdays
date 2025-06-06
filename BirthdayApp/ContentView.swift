@@ -6,6 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
+
+@main
+struct BirthdaysApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
 
 struct ContentView: View {
     @State private var friends: [friend] = [
